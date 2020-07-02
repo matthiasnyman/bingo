@@ -1,0 +1,14 @@
+.grid {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  width: calc(15em + 30px);
+  max-width: 90%;
+  margin: auto;
+  align-items: center;
+  
+}
+.cell {
+  height: 5em;
+  width: 5rem;
+  margin: 5px;
+}
